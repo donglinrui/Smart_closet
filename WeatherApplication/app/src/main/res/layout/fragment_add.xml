@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:text="请写入添加衣物图片："
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/start_photo"
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/plus" />
+    <TextView
+        android:text="   "
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="请写入添加衣物参数："
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="   "
+        android:textSize="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="衣物保暖值："
+        android:textColor="#03A9F4" />
+    <EditText
+        android:id="@+id/editText_temperature"
+        android:hint="请输入衣物保暖值"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="衣物类型："
+        android:textColor="#03A9F4" />
+    <com.example.a82572.weatherapplication.DropEditText
+        android:id="@+id/drop_edit"
+
+        android:layout_width="250dp"
+
+        android:layout_height="wrap_content">
+
+    </com.example.a82572.weatherapplication.DropEditText>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认增加"
+        android:textColor="#03A9F4" />
+
+</LinearLayout>

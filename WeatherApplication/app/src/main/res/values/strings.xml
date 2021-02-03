@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather Application</string>
+    <string name="title_home">主页</string>
+    <string name="title_view">查看</string>
+    <string name="title_add">添加</string>
+    <string name="title_ali">推荐</string>
+</resources>
