@@ -3,33 +3,33 @@
 
 主页：可以实时查看当前天气，并且下方依据天气信息给出穿衣推荐，并且可以通过delete按钮删除推荐衣物，并且重新推荐衣物。
 
-![image-20210203101510892](E:\Code_on_github\Smart_closet\README.assets\image-20210203101510892.png)
+![image-20210203101510892](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/image-20210203101510892.png)
 
 
 
 增加衣物
 
-![image-20210203101737589](E:\Code_on_github\Smart_closet\README.assets\image-20210203101737589.png)
+![image-20210203101737589](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/image-20210203101737589.png)
 
 增加衣物图片
 
-![image-20210203101754870](E:\Code_on_github\Smart_closet\README.assets\image-20210203101754870.png)
+![image-20210203101754870](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/image-20210203101754870.png)
 
 增加衣物属性：
 
-![image-20210203101832567](E:\Code_on_github\Smart_closet\README.assets\image-20210203101832567.png)
+![image-20210203101832567](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/image-20210203101832567.png)
 
 查看已存储衣物信息：在此页面中可以分类查看存储的所有衣物，并且可以对衣物进行编辑和修改。
 
-![image-20210203101901362](E:\Code_on_github\Smart_closet\README.assets\image-20210203101901362.png)
+![image-20210203101901362](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/image-20210203101901362.png)
 
 衣物推荐：在此页面中可以显示各类型衣物剩余数量，并且根据推荐算法计算出用户需要的衣服，然后给出淘宝链接进行衣物推荐。
 
-![image-20210203101930284](E:\Code_on_github\Smart_closet\README.assets\image-20210203101930284.png)
+![image-20210203101930284](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/image-20210203101930284.png)
 
 ### 2.系统框架及功能模块
 
-![image-20210203101151090](E:\Code_on_github\Smart_closet\README.assets\image-20210203101151090.png)
+![image-20210203101151090](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/image-20210203101151090.png)
 
 ##### 天气预报模块
 
@@ -53,30 +53,30 @@
 
 ### 3. 软件设计方案
 
-\1.   总体设计
+（1）  总体设计
 
 利用BottomNavigationView和fragment 来构建整个app的框架 通过底部的选项可以自由选择切换到的页面。此种方法减少了在activity 间切换的时间，节约了手机内存，并且使得用户操作更加简单便捷。
 
-\2.   主页
+（2）  主页
 
 流程图：
 
-![img](E:\Code_on_github\Smart_closet\README.assets\clip_image002.jpg)
+![img](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/clip_image002.jpg)
 
-\3.   添加衣物页面
+（3）  添加衣物页面
 
 流程图
 
-![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image004.jpg)
+![img](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/clip_image004.jpg)
 
-\4.   查看衣物页面
+（4）  查看衣物页面
 
 架构图
 
-![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image006.jpg)
+![img](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/clip_image006.jpg)
 
-\5.   衣物推荐页面
+（5）衣物推荐页面
 
 流程图
 
-![img](file:///C:/Users/ADMINI~1/AppData/Local/Temp/msohtmlclip1/01/clip_image008.jpg)
+![img](https://github.com/donglinrui/Smart_closet/tree/main/README.assets/clip_image008.jpg)
